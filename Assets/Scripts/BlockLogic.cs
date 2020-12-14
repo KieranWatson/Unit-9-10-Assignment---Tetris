@@ -11,6 +11,8 @@ public class BlockLogic : MonoBehaviour
 
     public GameObject rig;
 
+    public InnerJoystickScript joystickScript;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +51,17 @@ public class BlockLogic : MonoBehaviour
             //Update the timer.
             timer += 1 * Time.deltaTime;
 
-            //Drop and Soft Drop
+            DropAndSoftDrop();
+
+            MoveLeftAndRight();
+
+            RotateBlock();
+        } 
+    }
+
+    void DropAndSoftDrop()
+    {
+        //Drop and Soft Drop
             if(Input.GetKey(KeyCode.DownArrow) && timer > GameLogic.quickDropTime)
             {
                 gameObject.transform.position -= new Vector3(0, 1, 0);
@@ -75,26 +87,31 @@ public class BlockLogic : MonoBehaviour
                     gameLogic.SpawnBlock();
                 }
             }
+    }
 
-            //Moving Side to Side.
-            if(Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                gameObject.transform.position += new Vector3(1, 0, 0);
-                if (!CheckValid())
-                {
-                    gameObject.transform.position -= new Vector3(1, 0, 0);
-                }
-            }
-            else if(Input.GetKeyDown(KeyCode.LeftArrow))
+    void MoveLeftAndRight()
+    {
+        //Moving Side to Side.
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            gameObject.transform.position += new Vector3(1, 0, 0);
+            if (!CheckValid())
             {
                 gameObject.transform.position -= new Vector3(1, 0, 0);
-                if (!CheckValid())
-                {
-                    gameObject.transform.position += new Vector3(1, 0, 0);
-                }
             }
-
-            //Rotation
+         }
+        else if(Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            gameObject.transform.position -= new Vector3(1, 0, 0);
+            if (!CheckValid())
+            {
+                gameObject.transform.position += new Vector3(1, 0, 0);
+            }
+        }
+    }
+    void RotateBlock()
+    {
+        //Rotation
             if(Input.GetKeyDown(KeyCode.A))
             {
                 rig.transform.eulerAngles -= new Vector3(0, 0, 90);
@@ -111,6 +128,5 @@ public class BlockLogic : MonoBehaviour
                     rig.transform.eulerAngles -= new Vector3(0, 0, 90);
                 }
             }
-        } 
     }
 }

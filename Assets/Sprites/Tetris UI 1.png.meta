@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 8db830c0f3cb43d4c8ccea80203dd0e1
+guid: e718354fd8df1cf41a08d83b193e8291
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7336513417885871444
-    second: Tetris UI_0
+      213: -5502525205699182851
+    second: Tetris UI 1_0
   - first:
-      213: -6424730275473783387
-    second: Tetris UI_1
+      213: -4653225934006519328
+    second: Tetris UI 1_1
   - first:
-      213: -2400464757065960095
-    second: Tetris UI_2
+      213: -225023615574986075
+    second: Tetris UI 1_2
   - first:
-      213: 703185556670752100
-    second: Tetris UI_3
+      213: -5378833546772139193
+    second: Tetris UI 1_3
   - first:
-      213: -2111800903096253650
-    second: Tetris UI_4
+      213: 154681718594942173
+    second: Tetris UI 1_4
   - first:
-      213: -1609942247718238477
-    second: Tetris UI_5
+      213: -4011229756564008170
+    second: Tetris UI 1_5
   - first:
-      213: -5228956036212764319
-    second: Tetris UI_6
+      213: -2094186421801858955
+    second: Tetris UI 1_6
   - first:
-      213: -4204053456071600331
-    second: Tetris UI_7
+      213: 1933368162881447870
+    second: Tetris UI 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,11 +137,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tetris UI_0
+      name: Tetris UI 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 68
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -151,18 +151,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45d69f2451880d560800000000000000
-      internalID: 7336513417885871444
+      spriteID: dfebaa2aa7a13a3b0800000000000000
+      internalID: -5502525205699182851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tetris UI_1
+      name: Tetris UI 1_1
       rect:
         serializedVersion: 2
         x: 17
-        y: 68
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -172,18 +172,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a500b8aad5c6d6a0800000000000000
-      internalID: -6424730275473783387
+      spriteID: 0e9f7e7baab6c6fb0800000000000000
+      internalID: -4653225934006519328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tetris UI_2
+      name: Tetris UI 1_2
       rect:
         serializedVersion: 2
         x: 34
-        y: 68
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -193,60 +193,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1653d3b8506dfaed0800000000000000
-      internalID: -2400464757065960095
+      spriteID: 5a2349fb63e80ecf0800000000000000
+      internalID: -225023615574986075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tetris UI_3
+      name: Tetris UI 1_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 465ab84c98732c900800000000000000
-      internalID: 703185556670752100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tetris UI_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e234996744061b2e0800000000000000
-      internalID: -2111800903096253650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tetris UI_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 34
+        y: 67
         width: 44
         height: 16
       alignment: 0
@@ -256,18 +214,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f64cd73e0658a9e0800000000000000
-      internalID: -1609942247718238477
+      spriteID: 74331b2336b8a55b0800000000000000
+      internalID: -5378833546772139193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tetris UI_6
+      name: Tetris UI 1_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
+        y: 50
         width: 58
         height: 16
       alignment: 0
@@ -277,18 +235,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161576370340f67b0800000000000000
-      internalID: -5228956036212764319
+      spriteID: dd4391a143a852200800000000000000
+      internalID: 154681718594942173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tetris UI_7
+      name: Tetris UI 1_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 33
         width: 37
         height: 16
       alignment: 0
@@ -298,8 +256,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 537591ed7a338a5c0800000000000000
-      internalID: -4204053456071600331
+      spriteID: 613968fe9cf3558c0800000000000000
+      internalID: -4011229756564008170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tetris UI 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578cd0b7b84ffe2e0800000000000000
+      internalID: -2094186421801858955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tetris UI 1_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 7
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb72998c914b4da10800000000000000
+      internalID: 1933368162881447870
       vertices: []
       indices: 
       edges: []
@@ -307,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ec9b2de8deadb2d45873c6c1f81fc950
+    spriteID: e9b0c4381322f3142847cd8dcfc9ccd3
     internalID: 0
     vertices: []
     indices: 

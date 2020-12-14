@@ -7,11 +7,6 @@ public class PauseMenu : MonoBehaviour
 {
     void Update()
     {
-        Restart();
-    }
-
-    void Restart()
-    {
-        SceneManager.LoadScene(0);
+       
     }
 }
